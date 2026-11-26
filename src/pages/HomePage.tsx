@@ -39,7 +39,7 @@ const OFFER_SLIDES: OfferSlide[] = [
     kicker: 'Satkhira Orchard · Season Open',
     headline: 'From Our Garden to Your Home.',
     description:
-      'Tree-ripened Himsagar, Langra, Gopalbhog, and Govindabhog mangoes picked naturally without chemicals.',
+      'Tree-ripened Himsagar, Langra, Amrapali, and Gobindobhog mangoes picked naturally without chemicals.',
     ctaLabel: 'Explore Mangoes',
     ctaAction: 'mangoes',
     image: HERO_IMAGE,
@@ -198,9 +198,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onQuickView }) =
       isActive: false,
     },
     {
-      label: 'Gopalbhog',
-      image: '/src/assets/images/mango_gopalbhog_1795593016883.jpg',
-      onClick: () => onNavigate('/product/gopalbhog-mango'),
+      label: 'Amrapali',
+      image: '/src/assets/images/mango_amrapali_1795593016883.jpg',
+      onClick: () => onNavigate('/product/amrapali-mango'),
       isActive: false,
     },
     {
