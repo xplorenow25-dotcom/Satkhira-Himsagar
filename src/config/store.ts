@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     minOrderQuantity: 10,
     quantityStep: 10,
     unitLabel: 'KG',
-    variants: [{ id: 'himsagar-kg', label: 'Per KG', price: 200, compareAtPrice: 210 }],
+    variants: [{ id: 'himsagar-kg', label: 'Per KG', price: 120, compareAtPrice: 140 }],
   },
   {
     id: 'mango-langra',
@@ -104,7 +104,7 @@ export const PRODUCTS: Product[] = [
     minOrderQuantity: 10,
     quantityStep: 10,
     unitLabel: 'KG',
-    variants: [{ id: 'langra-kg', label: 'Per KG', price: 190, compareAtPrice: 205 }],
+    variants: [{ id: 'langra-kg', label: 'Per KG', price: 120, compareAtPrice: 130 }],
   },
   {
     id: 'mango-gopalbhog',
@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
     minOrderQuantity: 10,
     quantityStep: 10,
     unitLabel: 'KG',
-    variants: [{ id: 'gopalbhog-kg', label: 'Per KG', price: 210, compareAtPrice: 225 }],
+    variants: [{ id: 'gopalbhog-kg', label: 'Per KG', price: 150, compareAtPrice: 165 }],
   },
   {
     id: 'mango-govindabhog',
@@ -152,7 +152,7 @@ export const PRODUCTS: Product[] = [
     minOrderQuantity: 10,
     quantityStep: 10,
     unitLabel: 'KG',
-    variants: [{ id: 'govindabhog-kg', label: 'Per KG', price: 195, compareAtPrice: 210 }],
+    variants: [{ id: 'govindabhog-kg', label: 'Per KG', price: 150, compareAtPrice: 170 }],
   },
 
   // HONEY
